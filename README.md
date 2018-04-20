@@ -1,10 +1,12 @@
 # Pizzaonline
 
-A website concept done as a school project based on HTML, CSS and JavaScript. Page content is in Finnish. [Bulma](https://bulma.io/) was used as a framework.
+A website concept done as a school project based on HTML, CSS and JavaScript. Page content is in Finnish.
+
+[Bulma](https://bulma.io/) was used as a framework.
 
 ## Goals
 
-Create a simple, modern looking website for a pizzaplace which includes a login system and a shopping cart/ordering system.
+Create a simple, modern looking website concept for a pizzaplace which includes a login system and a shopping cart/ordering system.
 Personally I wanted to add some special functionality to the page. I achieved this in the Food menu ("Ruokalista") portion of the page using filters to show different kind of foods at a time.
 
 
