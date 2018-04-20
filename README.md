@@ -6,8 +6,9 @@ A website concept done as a school project based on HTML, CSS and JavaScript. Pa
 
 ## Goals
 
-Create a simple, modern looking website concept for a pizzaplace which includes a login system and a shopping cart/ordering system.
-Personally I wanted to add some special functionality to the page. I achieved this in the Food menu ("Ruokalista") portion of the page using filters to show different kind of foods at a time.
+Create a simple, modern looking website concept for a pizza shop. Site includes a login/sign-up system for users and a shopping cart/ordering system.
+
+Personally I wanted to add some special functionality to the page. I achieved this in the Food menu ("Ruokalista") portion of the page using filters to show different food types.
 
 
 ## Demo
