@@ -61,7 +61,7 @@ $(document).ready(function(){
         // if not shown, then toggle it visible and hide others
         else {
           $("#pizzaSection").show();
-          $("#saladSection, #kebabsection, #otherFoodsSection").hide();
+          $("#saladSection, #kebabSection, #otherFoodsSection").hide();
           }
     }
     else if ($this.is('#saladPicker')) {
