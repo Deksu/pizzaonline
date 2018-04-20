@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Luo uusi tili</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a href="index.html">
+            <img src="images/pizzaonline-logo.png" alt="pizzaonline-logo">
+            </a>
+            <div class="navbar-burger" data-target="navMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="navbar-menu" id="navMenu">
+
+                <div class="navbar-end">
+
+                <a href="ruokalista.html" class="navbar-item zoom">RUOKALISTA</a>
+                <a href="ostoskori.html" class="navbar-item zoom">OSTOSKORI</a>
+                <a href="kirjaudu.html" class="navbar-item zoom">KIRJAUDU SISÄÄN</a>
+                </div>
+
+        </div>
+    </nav>
+
+<!-- Main container -->
+
+  <section class="section">
+    <div class="container topic">
+      <h1 class="title">
+        LUO UUSI TILI
+      </h1>
+    </div>
+
+  </section>
+
+      <section class="section login-section">
+        <div class="columns">
+
+            <div class="column is-one-third"></div> <!-- Spacer div -->
+
+
+            <div class="column is-one-third is-centered column-box">
+
+                <div class="columns">
+                    <!-- username -->
+                    <div class="column">
+                        <div class="field">
+                            <label class="label left-side own-label">käyttäjänimi</label>
+                        <div class="control centered">
+                            <input class="input login-box" type="text">
+                            </div>
+                        </div>
+
+                        <!-- password -->
+                            <div class="field">
+                                <label class="label left-side own-label">salasana</label>
+                            <div class="control centered">
+                                <input class="input login-box" type="password">
+                                </div>
+                            </div>
+                            
+                            <!-- Repeat password -->
+                            <div class="field">
+                                    <label class="label left-side own-label">toista salasana</label>
+                                <div class="control centered">
+                                    <input class="input login-box" type="password">
+                                    </div>
+                                </div>
+
+                        </div>
+
+                </div>
+
+                <div class="column">
+
+                    <button class="button loginBtn zoom">luo tili</button>
+
+                </div>
+
+
+                    <div class="column signup-redirect">
+                        <p>Tunnus jo olemassa? <a href="kirjaudu.html">Kirjaudu sisään täällä</a></p>
+                    </div>
+
+            </div>
+
+            <div class="column is-one-third"></div> <!-- Spacer div -->
+        </div>
+
+      </section>
+
+
+        <!-- Footer -->
+
+      <footer class="footer">
+          <div class="container">
+              <div class="content has-text-centered">
+                    <img src="images/pizzaonline-footer.png" alt="footer-logo">
+              </div>
+
+            <div class="container">
+                <div class="columns">
+                    <div class="column is-one-quarter footer-side text-align-left">
+                        <h2>TILAUS</h2>
+                        <a href="">tilausehdot</a>
+                        <br>
+                        <a href="">tilauksen peruuttaminen</a>
+                    </div>
+
+                    <div class="column is-one-quarter footer-location">
+                        <p>Kauppakatu 58</p>
+                        <p>95400 Tornio</p>
+                        <a href="yhteystiedot.html#mapImg">Sijainti kartalla</a>
+                    </div>
+
+                    <div class="column is-one-quarter">
+                        <p>Aukioloajat:</p>
+                        <p>ma-pe 10-20</p>
+                        <p>la 12-22</p>
+                        <p>su 12-18</p>
+                    </div>
+
+                    <div class="column is-one-quarter footer-side text-align-right">
+                        <h2>OTA YHTEYTTÄ</h2>
+                        <a href="">viestilomake</a>
+                        <br>
+                        <a href="yhteystiedot.html">yhteystiedot</a>
+                    </div>
+
+
+                </div>
+            </div>
+          </div>
+      </footer>
+
+  </body>
+
+</html>
